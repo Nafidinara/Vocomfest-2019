@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" type="text/css" href="../css/styleShop.css">
+	<script src="assets/js/index.js"></script>
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/jquery-3.3.1.js"></script>
+<head>
+	<title>Dibeli Buk</title>
+</head>
+<body>
+		<div class="judul">
+			<p>BATIK TS</p>
+		</div>
+		<nav>
+			<ul>
+				<li class="icon-kiri">
+					<a href="../../index.html"><img src="../icon/home.svg"/></a>
+				</li>
+				<li class="icon-kiri">
+					<a href="#"><img src="../icon/contact.svg"/></a>
+				</li>
+				<li class="icon-kiri">
+					<a href="#"><img src="../icon/about.svg"/></a>
+				</li>
+				<div class="icon-kanan">
+					<div class="bg-biru">
+
+					</div>
+					<div class="tiga-kanan">
+						<li>
+						 <a href="#"><img src="../icon/search.svg"/></a>
+						</li>
+						<li>
+							<a href="assets/pages/shop.html"><img src="../icon/cart.svg"/></a>
+						</li>
+						<li>
+							<a href="#"><img src="../icon/account.svg"/></a>
+						</li>
+					</div>
+				</div>
+			</ul>
+		</nav>
+
+		<div class="headline">
+			<center>
+			<img src="../img/headline.png">
+		</center>
+		</div>
+
+		<div class="content">
+			<div id="sidebar">
+				<div id="categories">
+					<div class="categories-title">CATEGORIES</div>
+					<div class="dropdown-1">
+						<p onclick="dropFunction()" class="dropbtn">Pria</p>
+						<div id="dropcontent" class="dropcontent">
+							<a>Kemeja<span class="count" style="margin-left: 122px">48</span></a>
+							<a>Kaos<span class="count" style="margin-left: 138px">12</span></a>
+							<a>Syal<span class="count" style="margin-left: 144px">12</span></a>
+							<a>Jaket<span class="count" style="margin-left: 135px">12</span></a>
+						</div>
+					</div>
+					<div class="dropdown-2">
+						<p class="dropbtn">Wanita</p>
+					</div>
+					<div class="dropdown-3">
+						<p class="dropbtn">Lain-lain</p>
+					</div>
+				</div>
+				<div id="range">
+					<div class="range-title">FILTER BY</div>
+					<div class="range-container">
+						<div class="range-subtitle">Price</div>
+						<div class="inputan">
+							<input type="number" value="0">
+							<input type="number" value="700000">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="box-content">
+				<div class="header-content">
+					<center>
+						<div class="founded"><span class="count">48</span> PRODUCT FOUND</div>
+						<div id="filter">
+							<div class="filter-1">BATIK : <span class="filtered">PRINTING</span></div>
+							<div class="filter-2">SORT BY : <span class="filtered">NAME</span></div>
+						</div>
+					</center>
+				</div>
+
+				<div class="card-container">
+					<div class="card" ondblclick="detail()">
+						<img src="../img/card1.png">
+						<div class="card-content">
+							<h1>Kemeja Batik Jawa</h1>
+							<p class="price">Rp 120.000</p>
+							<img src="../icon/star.svg" style="margin-bottom: 32px">
+							<p class="addto"><button onclick="addAlert()">+ ADD TO CART</button> <img src="../icon/love.svg"></p>
+						</div>
+					</div>
+
+					<div class="card" ondblclick="detail()">
+						<img src="../img/card1.png">
+						<div class="card-content">
+							<h1>Kemeja Batik Jawa</h1>
+							<p class="price">Rp 120.000</p>
+							<img src="../icon/star.svg" style="margin-bottom: 32px">
+							<p class="addto"><button onclick="addAlert()">+ ADD TO CART</button><img src="../icon/love.svg"></p>
+						</div>
+					</div>
+				</div>
+				<div class="card-container">
+					<div class="card" ondblclick="detail()">
+						<img src="../img/card1.png">
+						<div class="card-content">
+							<h1>Kemeja Batik Jawa</h1>
+							<p class="price">Rp 120.000</p>
+							<img src="../icon/star.svg" style="margin-bottom: 32px">
+							<p class="addto"><button onclick="addAlert()">+ ADD TO CART</button><img src="../icon/love.svg"></p>
+						</div>
+					</div>
+
+					<div class="card" ondblclick="detail()">
+						<img src="../img/card1.png">
+						<div class="card-content">
+							<h1>Kemeja Batik Jawa</h1>
+							<p class="price">Rp 120.000</p>
+							<img src="../icon/star.svg" style="margin-bottom: 32px">
+							<p class="addto"><button onclick="addAlert()">+ ADD TO CART</button><img src="../icon/love.svg"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<center>
+			<hr class="useless-line">
+		</center>
+		<div class="footer">
+			<div class="socmed">
+				<img src="../icon/linkedin.svg">
+				<img src="../icon/twitter.svg">
+				<img src="../icon/instagram.svg">
+				<img src="../icon/facebook.svg">
+			</div>
+			<div class="footer-content">
+				<div class="foot-title">
+					BATIK TS
+				</div>
+				<div class="navnav">
+					<div class="get-started">
+						<div class="foot-subtitle">
+							GET STARTED
+						</div>
+						<ul>
+							<li>Product</li>
+							<li>Install</li>
+							<li>Quickstart</li>
+						</ul>
+					</div>
+					<div class="support">
+						<div class="foot-subtitle">
+							SUPPORT
+						</div>
+						<ul>
+							<li>Faq</li>
+							<li>Contact Us</li>
+						</ul>
+					</div>
+					<div class="company">
+						<div class="foot-subtitle">
+							COMPANY
+						</div>
+						<ul>
+							<li>Blog</li>
+							<li>Career</li>
+							<li>About</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>
+<script>
+	function dropFunction() {
+		document.getElementById('dropcontent').classList.toggle("show");
+	}
+
+	/*card*/
+	function detail() {
+		window.location.href = "detail-shop.html";
+	}
+
+	function addAlert() {
+		if(confirm("Item akan ditambahkan ke Cart")){
+			window.location.href = "payment.html";
+		} else{
+			alert("Batalkan pilihan");
+		}
+	}
+</script>

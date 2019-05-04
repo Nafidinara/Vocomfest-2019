@@ -1,0 +1,307 @@
+/*default*/
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+  font-family: Roboto;
+}
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	letter-spacing: 0.02em;
+}
+ul{
+	margin: 60px;
+}
+li{
+	list-style: none;
+	float: left;
+}
+label{
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 0.02em;
+	float: left;
+}
+input{
+	font-size: 16px;
+	margin: 10px 0;
+	border: 0.5px solid #DBDBDB;
+	height: 50px;
+	width: 100%;
+	float: left;
+}
+button{
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+select{
+	color: #B9BFC7;
+	height: 50px;
+	width: 100%;
+	background-color: #F5F5F5;
+	border: 0.5px solid #DBDBDB;
+}
+textarea{
+	font-family: Roboto;
+	width: 100%;
+	height: 100px;
+}
+table{
+	text-align: left;
+	width: 100%;
+	border: none;
+}
+th, td{
+	padding: 10px;
+}
+span{
+	color: #4C7EFF;
+}
+.title p{
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+	letter-spacing: 0.12em;
+	font-size: 24px;
+  font-family: Roboto-Bold;
+}
+.navbar-left{
+	float: left;
+  margin: 0px 20px 0px 20px;
+}
+.navbar-right{
+	float: right;
+  margin: 0px 20px 0px 20px;
+}
+.header-darkblue{
+  position: absolute;
+	width: 300px;
+	height: 330px;
+	left: 0px;
+	top: 0px;
+	background: #29313C;
+}
+.header-blue{
+	position: absolute;
+	width: 80px;
+	height: 470px;
+	left: 0px;
+	top: 160px;
+	background: #4C7EFF;
+}
+.payment-method{
+  margin: 140px 0px 120px 340px;
+}
+.input-data{
+	width: 686px;
+  margin: 0px 377px 30px 377px;
+}
+.inputan{
+  display: flex;
+  flex-direction: row;
+}
+.input-2{
+	width: 328px;
+  margin: 0px 15px 0px 0px;
+}
+.input-3{
+  width: 328px;
+  margin: 0px 0px 0px 15px;
+}
+.input-1{
+  display: grid;
+}
+.input-1 button{
+  width: 210px;
+  height: 50px;
+  margin: 15px 30px 15px 0px;
+}
+.btn-address{
+	font-weight: bold;
+	background-color: #f5f5f5;
+}
+.btn-address:active{
+	background-color: #fff;
+	border: 0.5px solid #DBDBDB;
+}
+.input-4{
+	margin-top: 20px;
+	float: left;
+	width: 70%;
+}
+.input-5{
+	margin-top: 20px;
+	float: right;
+	width: 25%;
+}
+.input-6{
+	float: left;
+}
+.container-list{
+  height: 128px;
+  margin: 0px 0px 40px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.list-price{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.title-payment{
+	margin: 15px 30px 24px 30px;
+}
+.count-list{
+  margin: 60px 0px 0px -190px;
+}
+.price{
+	color: #B9BFC7;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+.ttl-price{
+	font-weight: bold;
+	color: #4C7EFF;
+  font-size: 13px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+.maps{
+	width: 100%;
+}
+.btn-cancel{
+	font-weight: bold;
+	color: #4C7EFF;
+	height: 60px;
+	width: 328px;
+	border: 0.3px solid #4C7EFF;
+	background-color: #fff;
+  margin: 30px 15px 135px 0px;
+}
+.btn-next{
+	font-weight: bold;
+	color: #fff;
+	height: 60px;
+	width: 328px;
+	background-color: #29313C;
+	border: none;
+}
+.tb-blue{
+	color: #4C7EFF;
+}
+.tb-bold{
+	font-weight: bold;
+}
+.tb-end{
+	border-bottom: 0.5px solid #DBDBDB;
+}
+.tb-right{
+	text-align: right;
+}
+.container-bank{
+	margin: 20px 0px 50px 0px;
+}
+.img-bank{
+	margin: 0px 15px 15px 0px;
+	height: 50px;
+	width: 150px;
+	background-color: #f5f5f5;
+}
+.payment{
+	border: 0.5px solid #DBDBDB;
+}
+.tf-payment, .tf-info{
+	font-weight: bold;
+	font-style: 14px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 0.5px solid #DBDBDB;
+}
+.tf-payment-md{
+	margin: 70px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+.tf-payment-bg{
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+.tf-payment-a{
+  display: flex;
+  flex-direction: row;
+}
+.tf-bank{
+	height: 100px;
+	padding: 20px;
+	text-align: center;
+	width: 225px;
+	border: 0.05px solid #DBDBDB;
+}
+.tf-bank-title{
+	color: #29313C;
+	font-size: 16px;
+}
+.btn-min{
+	margin-left: 30px;
+	font-size: 32px;
+	font-weight: bolder;
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+.count-ttl{
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 20px;
+	border: 0.05px solid #DBDBDB;
+	cursor: text;
+	height: 30px;
+	width: 50px;
+	float: left;
+}
+.btn-plus{
+	font-size: 32px;
+	font-weight: bolder;
+	height: 30px;
+	width: 30px;
+}
+.tf-info-md{
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.tf-info-last{
+	height: 70px;
+	padding: 20px;
+	text-align: left;
+	width: 215px;
+	border: 0.05px solid #DBDBDB;
+}
+.tf-info-lg{
+	margin-top: -10px;
+	margin-left: 30px;
+	color: #DBDBDB;
+	font-size: 18px;
+}
+.info-last-container{
+	display: flex;
+	flex-direction: row;
+}

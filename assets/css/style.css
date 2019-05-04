@@ -1,0 +1,611 @@
+/*default*/
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    margin-left: 40px;
+}
+nav ul li{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+/* .bg{
+    float: right;
+    position: relative;
+} */
+.login-btn{
+    position: absolute;
+    float: right;
+    margin-left: 125px;
+}
+.search-btn{
+    position: absolute;
+    float: right;
+}
+.icon-kanan{
+    width: 340px;
+    height: 760px;
+    background-color:#29313C;
+    position: relative;
+    float: right;
+}
+.warp-rectangle{
+    float: right;
+}
+.login{
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    text-decoration-line: none;
+}
+.judul{
+    color: #29313C;
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.12em;
+    margin-top: 63px;
+    position: absolute;
+    margin-left: 50%;
+}
+.gbr-cewe{
+    float: right;
+    width: 519.72px;
+    height: 557.66px;
+margin-top: 56px;
+}
+.tgline{
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+}
+.text-batik{
+    color: #4C7EFF;
+}
+.garis-3{
+    margin-top: 80px;
+}
+.paragraf{
+    margin-top: 32px;
+    line-height: 29px;
+		letter-spacing: 0.04em;
+		font-family: Roboto;
+}
+.warp-text{
+    margin-left: 153px;
+    margin-top: 100px;
+
+}
+.shopNow{
+    width: 180px;
+    margin-top: 30px;
+}
+.tiga-kanan{
+    margin-left: 38px;
+}
+.bg-biru{
+  width: 80px;
+  height: 606px;
+  background-color: #4C7EFF;
+  position: absolute;
+  margin-top: 154px;
+  margin-left: 260px;
+  z-index: 2;
+}
+.bg-abu{
+    width: 80px;
+height: 606px;
+background-color:#29313C;
+position: absolute;
+margin-left: 260px;
+margin-top:434px;
+z-index: 1;
+}
+.warp-sub{
+    position:absolute;
+}
+.subheader{
+    font-size:180px;
+    position:absolute;
+    color : #F7F9FF;
+    margin-left:45px;
+    margin-top:-55px;
+}
+.subjudul{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.12em;
+}
+.gbr-sub{
+    margin-top:22px;
+}
+.para-sub{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0.02em;
+margin-top:40px;
+}
+.warp-all{
+    margin: 350px 0px 0px 80px;
+    padding-top: 200px;
+    padding-bottom: 380px;
+    padding-left: 73px;
+    position: relative;
+    background-color: white;
+}
+.dua{
+    margin-left: 421px;
+}
+.tiga{
+    margin-left: 843px;
+}
+.bg-batik{
+    margin-top: 260px;
+    position: absolute;
+}
+
+.btn-overlay{
+    border: none;
+    display: block;
+    width: 230px;
+    padding: 20px 5px 20px 5px;
+    color: #f5f5f5;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    border-radius: .27em;
+    box-shadow: 0px 5px 24px rgba(34, 34, 34, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .btn-overlay:focus{
+    outline: none;
+  }
+
+  .button-group {
+    margin-top: 45px;
+  }
+
+  .btn-overlay {
+    background: #29313C;
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-overlay:after {
+    content: '';
+    position: absolute;
+    width: 115%;
+    height: 200px;
+    background: #313D4D;
+    transform: translateY(-45%) skew(25deg) scale(0);
+    left: -5%;
+    transition: 200ms ease-in-out;
+  }
+  .btn-overlay:hover:after {
+    transform: translateY(-45%) skew(25deg) scale(1);
+  }
+  .btn-overlay span {
+    position: relative;
+    z-index: 1;
+  }
+
+
+
+.section {
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    opacity: 0;
+    transition: all 1.5s;
+    -webkit-perspective: 10em;
+            perspective: 10em;
+  }
+  .section.animate {
+    opacity: 1;
+  }
+  .section .warp-all {
+    opacity: 0;
+    transition: all 1.5s;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .section .warp-all.animate {
+    opacity: 1;
+    transition: all 1.5s ease;
+  }
+  .section:nth-child(even) {
+    background-color:transparent;
+  }
+
+
+
+  .carousel {
+    --height: 128px;
+    position: absolute;
+    --width: 145px;
+    display: block;
+    margin: 190px 0px 0px 200px;
+    height: var(--height);
+    z-index: 4;
+    text-align: center;
+
+  }
+
+  .carousel * {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    height: 100%;
+  }
+
+  .arrow-container {
+    --width-arrow: 64px;
+    width: var(--width-arrow);
+  }
+
+  .arrow {
+    --arrow-width: calc(var(--width-arrow) / 2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: var(--arrow-width);
+    height: var(--arrow-width);
+    background-color: white;
+    font-weight: bold;
+    line-height: var(--arrow-width);
+    border-radius: 50%;
+    transform: translate(-50%) translateY(-50%);
+    transition: background-color 111ms, color 222ms;
+    cursor: pointer;
+  }
+
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
+  .arrow:active {
+    transform: scale(0.9) translate(-50%) translateY(-50%);
+  }
+
+  .arrow.left {
+    display: none;
+  }
+
+  .display-container {
+    /* * 4 to show 4 slides */
+    width: calc(var(--width) * 4 - 2px);
+    overflow-x: hidden;
+  }
+
+  .slide-container {
+    /* * 8 cause that's the number of slides */
+    width: calc(var(--width) * 10);
+    /* start by going left 2 slides */
+    /* transform: translate(calc(var(--width) * -2)); */
+    transition: transform 333ms;
+  }
+
+  .slide {
+    margin-left: -4px;
+    width: var(--width);
+  }
+  .nama{
+    position: absolute;
+    z-index: 3;
+  }
+  .empat{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 180px;
+    line-height: 369px;
+    letter-spacing: 0.02em;
+    margin: -65px 0px 0px 250px;
+    color: #343D48;
+  }
+  .top{
+    position: absolute;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 0.12em;
+    margin: 87px 0px 0px 323px;
+    color: white;
+    z-index: 3;
+}
+  .garis{
+    position: absolute;
+    margin: 135px 0px 0px 425px;
+    z-index: 3;
+  }
+  .bungkus{
+    position: absolute;
+    width: 1155px;
+    height: 400px;
+    background-color:#29313C;
+    margin-left: 195px;
+    margin-top: -30px;
+  }
+  /* Slideshow container */
+.slideshow-container {
+  max-width: 260px;
+  position: relative;
+  margin: 140px -170px 0px 0px;
+  float: right;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 40px;
+  border-radius: 3px 3px 3px 3px;
+}
+.prev{
+  margin-right: 40px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(179, 179, 179, 0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.bungkus5{
+  position: absolute;
+width: 1050px;
+height: 250px;
+background-color: #F7F9FF;
+margin: 0px 0px 0px 300px;
+}
+.lima{
+  position: absolute;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 180px;
+line-height: 369px;
+letter-spacing: 0.02em;
+margin:-90px 0px 0px 255px;
+z-index: 1;
+
+color: #EDF2FF;
+}
+.what{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.12em;
+position: absolute;
+margin: 58px 0px 0px 193px;
+color: #29313C;
+z-index: 2;
+}
+.garis2{
+  position: absolute;
+  margin:100px 0px 0px 300px;
+  z-index: 2;
+}
+.bungkus6{
+  position: absolute;
+width: 1020px;
+height: 437px;
+background-color: #29313C;
+margin:170px 0px 0px 0px;
+}
+.buttonn{
+  margin: -70px 0px 0px 0px;
+  position: relative;
+  float: right;
+}
+.dot{
+-webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  opacity: 0;
+  animation-duration: 1.5s;
+  position: absolute;
+}
+.active, .dot:hover {
+  opacity: 1;
+}
+.text{
+  margin: 160px 0px 0px 50px;
+  color: white;
+  line-height: 31px;
+letter-spacing: 0.04em;
+font-family: Roboto;
+}
+.warp-bungkus{
+  position: absolute;
+  margin: 600px 0px 0px 0px;
+}
+.warp-logo{
+margin-top: 1500px;
+margin-left: 180px;
+}
+.gbar{
+  max-width: 130px;
+  max-height: 130px;
+  width: 100%;
+  margin: 30px;
+}
+.warp-our{
+  margin-left: 100px;
+}
+.our{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.12em;
+color: #29313C;
+margin-left: 240px;
+}
+.garis-5{
+  margin-left: 345px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.useless-line{
+  border: 0.3px solid rgba(47, 57, 81, 0.24);
+  width: 1134px;
+  margin: 225px 0px 30px 0px;
+}
+.socmed{
+  display: flex;
+  flex-direction: column;
+  max-width: 40px;
+  margin: 138px 50px 0px 50px;
+}
+.socmed img {
+  margin: 30px 0px 30px 0px;
+  cursor: pointer;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height: 556px;
+  background-color: #29313C;
+}
+.foot-title{
+  font-style: normal;
+  font-family: Roboto-Bold;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  line-height: normal;
+  color: #FFFFFF;
+  margin: 217px 200px 310px 200px;
+}
+.navnav{
+  display: flex;
+  flex-direction: row;
+}
+.foot-subtitle{
+  font-style: normal;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  font-family: Roboto;
+  margin-bottom: 60px;
+}
+.support{
+  margin: 230px 190px 165px 160px;
+}
+.get-started{
+  margin: 230px 0px 165px 0px;
+}
+.company{
+  margin: 230px 0px 165px 0px;
+}
+.get-started ul li{
+  font-family: Roboto;
+  list-style: none;
+  color: #67717F;
+  letter-spacing: 0.02em;
+  line-height: normal;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.support ul li{
+  font-family: Roboto;
+  list-style: none;
+  color: #67717F;
+  letter-spacing: 0.02em;
+  line-height: normal;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.company ul li{
+  font-family: Roboto;
+  list-style: none;
+  color: #67717F;
+  letter-spacing: 0.02em;
+  line-height: normal;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
